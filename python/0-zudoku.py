@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+
+"""Sudoku solver."""
+
 from typing import List
 SUDOKU = [
     [6, 0, 0, 7, 9, 0, 2, 0, 8],
