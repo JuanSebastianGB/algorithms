@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""Decimal to binary using recursion
+    """
+
 
 def _decimalToBinary(num: int, result: str) -> str:
     """Converts a decimal number to a binary string
