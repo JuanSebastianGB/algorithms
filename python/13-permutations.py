@@ -33,7 +33,7 @@ def permute(nums: List[int]) -> List[List[int]]:
     if len(nums) == 1:  # base condition,that is, when the list has only one element
         return [nums[:]]
     for i in range(len(nums)):
-        p = nums.pop(i)  # remove the element at index i
+        p = nums.pop(0)  # remove the element at index i
         permutations = permute(nums)
         # append the removed element to all the permutations
         [el.append(p) for el in permutations]
