@@ -22,13 +22,13 @@ from typing import List
 
 
 def maxSubArray(nums: List[int]) -> int:
-    """_summary_
+    """Find the largest sum of the given number of sub arrays
 
     Args:
-        nums (List[int]): _description_
+        nums (List[int]): List of integers to find the largest sum
 
     Returns:
-        int: _description_
+        int: largest sum of the given number of sub arrays
     """
     _sum, _max = 0, nums[0]
 
