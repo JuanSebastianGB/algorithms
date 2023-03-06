@@ -36,7 +36,7 @@ def solveNQueens(n: int) -> List[List[str]]:
 
     def dfs(row: int):
         if row == n:
-            result.append(["".join(col) for col in board])
+            result.append(["".join(r) for r in board])
             return
         for column in range(n):
             if column in columnVisited or (row + column) in pDiag or (row - column) in nDiag:
